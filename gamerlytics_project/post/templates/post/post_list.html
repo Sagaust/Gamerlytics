@@ -1,0 +1,11 @@
+<html>
+  <h1>Posts</h1>
+  <ul>
+    {% for post in posts %}
+    <li>
+      <a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a>
+      <!-- Assuming you have a 'title' field in your Post model -->
+    </li>
+    {% endfor %}
+  </ul>
+</html>

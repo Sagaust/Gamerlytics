@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     
     'gamerlytical',
     'home',
+    'notes',
+    'post',
 ]
 
 MIDDLEWARE = [

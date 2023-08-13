@@ -1,0 +1,9 @@
+<html>
+  <h1>Attention,These are the notes as extracted from the database:</h1>
+
+  <ul>
+    {% for note in notes %}
+    <li>{{note.title}}</li>
+    {% endfor %}
+  </ul>
+</html>
